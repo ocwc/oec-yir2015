@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  $('.graphic').load('img/basic.svg', function(){
+  $('.graphic').load( document.location.href + 'img/basic.svg', function(){
 
     var controller = new ScrollMagic.Controller();
 
