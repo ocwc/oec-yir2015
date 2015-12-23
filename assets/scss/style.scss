@@ -1,0 +1,59 @@
+$font: "myriad-pro", sans-serif;
+$orangeText: #ff6633;
+$green: #009999;
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.graphic {
+  display: block;
+
+  height: 6220px;
+  width: 1426px;
+
+  margin: 4px auto -60px;
+  overflow: hidden;
+}
+
+.row {
+  position: relative;
+
+  width: 1426px !important;
+  max-width: 1426px !important;
+
+  overflow: visible;
+}
+
+body {
+  background: url('../img/background.svg') repeat-x;
+  font: $font;
+}
+
+.oew-desc {
+  position: absolute;
+  top: 1770px;
+
+  width: 350px;
+  right: 140px;
+
+  color: $orangeText;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 3px 20px;
+  margin-top: 30px;
+
+  font: 13px/24px $font;
+  font-weight: bold;
+  background-color: $green;
+
+  border-radius: 8px;
+
+  &:hover {
+    background-color: darken($green, 15%);
+  }
+}
