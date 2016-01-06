@@ -8,39 +8,40 @@ a {
 }
 
 .graphic {
-  display: block;
+  // display: none;
 
-  height: 6220px;
-  width: 1426px;
+  height: 6169px;
+  width: 1440px;
 
-  margin: 0px auto -60px;
+  margin: 0 auto -70px;
   overflow: hidden;
+  background-color: transparent;
 }
 
 .row {
-  position: relative;
+  width: 1440px !important;
+  max-width: 1440px !important;
 
-  width: 1426px !important;
-  max-width: 1426px !important;
-
-  overflow: visible;
+  overflow: hidden;
 }
 
 body {
-  background: url('../img/background.svg') repeat-x;
-  font: $font;
+  background: url('../img/background.png');
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
 }
 
-.oew-desc {
-  position: absolute;
-  top: 1770px;
-
-  width: 350px;
-  right: 140px;
-
-  color: $orangeText;
-  font-size: 16px;
-}
+// .oew-desc {
+//   position: absolute;
+//   top: 1770px;
+//
+//   width: 350px;
+//   right: 140px;
+//
+//   color: $orangeText;
+//   font-size: 16px;
+// }
 
 .btn {
   display: inline-block;
