@@ -146,6 +146,26 @@ body {
   top: 5085px;
 }
 
-#facebook, #twitter {
-  cursor: pointer;
+// #facebook, #twitter {
+//   cursor: pointer;
+// }
+
+.btn-facebook {
+  position: absolute;
+  top: 5427px;
+  left: 917px;
+
+  height: 46px;
+  width: 46px;
+  background-color: transparent;
+}
+
+.btn-twitter {
+  position: absolute;
+  top: 5427px;
+  left: 977px;
+
+  height: 46px;
+  width: 46px;
+  background-color: transparent;
 }
