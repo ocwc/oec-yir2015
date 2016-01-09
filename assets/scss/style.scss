@@ -1,6 +1,7 @@
 $font: "myriad-pro", sans-serif;
 $orangeText: #ff6633;
 $green: #009999;
+$blue: #2d6bad;
 
 a {
   color: white;
@@ -19,6 +20,7 @@ a {
 }
 
 .row {
+  position: relative;
   width: 1440px !important;
   max-width: 1440px !important;
 
@@ -44,17 +46,106 @@ body {
 // }
 
 .btn {
+  position: absolute;
   display: inline-block;
   padding: 3px 20px;
   margin-top: 30px;
 
   font: 13px/24px $font;
   font-weight: bold;
-  background-color: $green;
+  text-transform: uppercase;
 
+  background-color: $green;
   border-radius: 8px;
 
   &:hover {
     background-color: darken($green, 15%);
   }
+}
+
+.btn-blue {
+  background-color: $blue;
+  &:hover {
+    background-color: darken($blue, 15%);
+  }
+}
+
+.oew-btn {
+  top: 1720px;
+  right: 355px;
+}
+
+.global1-btn {
+  right: 480px;
+  top: 2475px;
+}
+
+.global2-btn {
+  right: 350px;
+  top: 2475px;
+}
+
+.service1-btn {
+  left: 330px;
+  top: 3355px;
+}
+
+.service2-btn {
+  left: 660px;
+  top: 3355px;
+}
+
+.service3-btn {
+  left: 990px;
+  top: 3355px;
+}
+
+.service4-btn {
+  left: 330px;
+  top: 3645px;
+}
+
+.service5-btn {
+  left: 660px;
+  top: 3645px;
+}
+
+.service6-btn {
+  left: 990px;
+  top: 3645px;
+}
+
+
+.project1-btn {
+  left: 410px;
+  top: 4145px;
+}
+
+.project2-btn {
+  left: 920px;
+  top: 4205px;
+}
+
+.project3-btn {
+  left: 410px;
+  top: 4515px;
+}
+
+.project4-btn {
+  left: 920px;
+  top: 4685px;
+}
+
+.project5-btn {
+  left: 410px;
+  top: 5095px;
+}
+
+.project6-btn {
+  left: 920px;
+  top: 5085px;
+}
+
+#facebook, #twitter {
+  cursor: pointer;
 }
