@@ -11,10 +11,10 @@ a {
 .graphic {
   // display: none;
 
-  height: 6280px;
+  height: 6234px;
   width: 1440px;
 
-  margin: 0 auto -70px;
+  margin-top: -10px;
   overflow: hidden;
   background-color: transparent;
 }
@@ -27,7 +27,9 @@ a {
   overflow: hidden;
 }
 
-body {
+.background {
+  height: 6223px;
+
   background: url('../img/background.png');
   background-position: top;
   background-repeat: repeat-x;
@@ -128,7 +130,7 @@ body {
 
 .project3-btn {
   left: 410px;
-  top: 4595px;
+  top: 4615px;
 }
 
 .project4-btn {
@@ -138,7 +140,7 @@ body {
 
 .project5-btn {
   left: 410px;
-  top: 5055px;
+  top: 5035px;
 }
 
 .project6-btn {
